@@ -21,4 +21,4 @@ $ mvn package
 $ java -cp target/PodiggConverterRDF-1.0-SNAPSHOT.jar PodiggConverterRDF
 ```
 ## Note 
-* The style folder in `src/main/output/website` includes the cascading style sheet for the website.
+* The style folder in `src/main/output/website` includes the cascading style sheet for the website.# podigg-data-generator
