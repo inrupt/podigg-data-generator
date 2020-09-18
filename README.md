@@ -24,7 +24,7 @@ $ java -cp target/PodiggConverterRDF-1.0-SNAPSHOT.jar PodiggConverterRDF
 
 #### To run from IntelliJ
 
-This project was developed using NetBeans, but to run itin IntelliJ simply open ‘src/javaapplication1’ and right-click -> Run... the file ‘JavaApplication1.java’. You need to move all the PoDiGG-generated ‘*.txt’ files into the ‘./testing/text’ folder (e.g. ‘routes.txt’, ‘stop_times.txt’, etc.).
+This project was developed using NetBeans, but to run it in IntelliJ simply open ‘src/main/java/PodiggConverterRDF.java’ and right-click -> Run... that file. You need to move all the PoDiGG-generated ‘*.txt’ files into the ‘./src/main/resources/input’ folder (e.g. ‘routes.txt’, ‘stop_times.txt’, etc.), as explained above.
 
 ## Note 
 
