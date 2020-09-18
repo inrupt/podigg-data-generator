@@ -12,7 +12,7 @@ PoDiGG Converter RDF
 * Convert the .txt files to .ttl files, and saves it in `src/main/output/turtle`
 * Generate an index.html page, and a HTML webpage for each stopID, and saves them in `src/main/output/website`
 
-#### This will package the compiled code into a distributable JAR .
+#### This will package the compiled code into a distributable JAR.
 
 ```shell script
 $ mvn package
@@ -21,6 +21,10 @@ $ mvn package
 ```shell script
 $ java -cp target/PodiggConverterRDF-1.0-SNAPSHOT.jar PodiggConverterRDF
 ```
+
+#### To run from IntelliJ
+
+This project was developed using NetBeans, but to run itin IntelliJ simply open ‘src/javaapplication1’ and right-click -> Run... the file ‘JavaApplication1.java’. You need to move all the PoDiGG-generated ‘*.txt’ files into the ‘./testing/text’ folder (e.g. ‘routes.txt’, ‘stop_times.txt’, etc.).
 
 ## Note 
 
