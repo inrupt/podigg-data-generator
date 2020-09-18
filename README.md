@@ -9,8 +9,8 @@ Podigg Converter RDF
 
 #### You can then open the terminal and run the commands below to generate each of these into their directories
 
-* Convert the .txt files to .ttl files and save it in `src/main/output/turtle`
-* Generate an index page and webpage for each stopID and save it in `src/main/output/website`
+* Convert the .txt files to .ttl files and saves it in `src/main/output/turtle`
+* Generate an index page and webpage for each stopID and saves it in `src/main/output/website`
 
 #### This will package the compiled code in to a distributable format such as a JAR.
 ```shell script
